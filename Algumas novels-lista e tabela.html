@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="site.css">
+    <title> ✶ Tu'er Shen </title>
+</head>
+<body>
+     <header>
+         <a href="index.html"><h1 class="logo"> Revista Danmei</h1></a>
+         
+         </header>
+     
+         <nav> <!-- Menu da página, fazer as outras para a linkagem-->
+         <ul class="menu">
+             <li class="li"><a href="#"> Edições</a>
+               <ul> 
+                   <li><a href="http://127.0.0.1:5500/Edi%C3%A7%C3%A3o%20Normal.html"> Normal</a></li>
+                   <li><a href="http://127.0.0.1:5500/Edi%C3%A7%C3%A3o%20hell.html"> Hell</a></li>
+                   <li><a href="http://127.0.0.1:5500/Edi%C3%A7%C3%A3o%20Gl.html"> Gl</a></li>
+                   <li><a href="http://127.0.0.1:5500/Edi%C3%A7%C3%A3o%20Thai.html"> Thai</a></li>
+               </ul></li>
+               <li><a href="http://127.0.0.1:5500/Galeria%20de%20artes.html"> Artes</a></li>
+               <li><a href="http://127.0.0.1:5500/site.html"> Home</a></li>
+               <li><a href="http://127.0.0.1:5500/Not%C3%ADcias.html"> Notícias</a></li>
+               <li><a href="http://127.0.0.1:5500/Consultoria.html"> Consultoria</a></li>
+
+         </ul>
+     </nav>
+     <div class="tranimag"> 
+         <aside><!--Vamos lá july, não se perca nesse código-->
+         <script> //1°- código java para a transição de imagens, não se esqueça de depois tentar fazer ficar mais leve
+             var i=0;
+             var imagem=[];
+             var tempo=3000;
+
+             imagem[0]= '1.jpg';
+             imagem[1]='2.jpg';
+             imagem[2]='3.jpg';
+             imagem[3]='4.jpg';
+             imagem[4]='5.jpg';
+             imagem[5]='6.jpg';
+             imagem[6]='7.jpg';
+             imagem[7]='8.jpg';
+             imagem[8]='9.jpg';
+             imagem[9]='10.jpg';
+             imagem[10]='12.jpg';
+             imagem[11]='13.jpg';
+             imagem[12]='14.jpg';
+             imagem[13]='15.jpg';
+             imagem[14]='16.jpg';
+             //lembrar de adicionar mais imagens depois e fazer outras para as outras pág.
+             
+             function mudarImg(){
+                 document.tran.src=imagem[i];
+             
+
+             if (i < imagem.length - 1) 
+             {i++;}
+            
+             else {i=0;}
+             setTimeout("mudarImg()", tempo);
+             }
+
+             window.onload=mudarImg;
+             
+             
+            </script>
+         <img name="tran" width="160" height="550">
+         
+         </aside>
+        </div>
+        <div>
+            <section>
+                <h1> Recomendações</h1>
+                <article>
+                    <p class="ag"> A Round Trip To Love</p>
+                    <img src="36.jpg" class="ah" width="300px" height="450px">
+                    <table border="1" align="center">
+                        <tr>
+                            <td> Autor(a)</td>
+                            <td> Lan Lin</td>
+                        </tr>
+                        <tr>
+                            <td> Cáp.</td>
+                            <td>117</td>
+                        </tr>
+                        <tr>
+                            <td> Ano</td>
+                            <td> 2016</td>
+                        </tr>
+                        <tr>
+                            <td> País</td>
+                            <td> China</td>
+                        </tr>
+                    </table>
+                    <p class="ai"> Lu Feng é o típico badboy enquanto Xiao Chen faz mais o tipo nerd. Os dois se conhecem na<br> 
+                        escola e dividem o mesmo quarto. Por um erro de cálculo nas somas das notas de Xiao Chen,<br>
+                        ele acaba perdendo uma aposta, mas resolve não pedir por uma reavaliação de nota porque<br>
+                        descobre que isso poderia afetar Lu Feng. Com o tempo, os dois se tornam cada vez mais<br>
+                        próximos e descobrem juntos que gostam um do outro. Mas a vida de um casal gay nunca é <br>
+                        fácil e, depois de um incidente na escola, por ser de uma família muito popular, Lu Feng foi<br>
+                        enviado pela família para estudar fora do país. Acreditando ter sido abandonado, Xiao Chen <br>
+                        decide esquecê-lo para alegrar sua mãe. No entanto, nada é mais implacável e cruel do que o <br>
+                        destino que, anos depois, os coloca frente a frente mais uma vez. </p><br>
+                </article>
+                <p class="ak"> Advance Bravely</p>
+                <img src="37.jpg" class="aj" width="300px" height="450px">
+                    <table border="1" align="center">
+                        <tr>
+                            <td> Autor(a)</td>
+                            <td> Chai JiDan</td>
+                        </tr>
+                        <tr>
+                            <td> Cáp.</td>
+                            <td>225</td>
+                        </tr>
+                        <tr>
+                            <td> Ano</td>
+                            <td> 2013</td>
+                        </tr>
+                        <tr>
+                            <td> País</td>
+                            <td> China</td>
+                        </tr>
+                    </table>
+                    <p class="ai">
+                        Sargento Xia Yao, nascido de uma linhagem rica e renomada, é um<br>
+                        playboy que virou uma nova página, Yuan Zong é um ex-soldado das forças<br>
+                        especiais que abriu uma companhia de treinamento de guarda-costas depois de<br>
+                        ser exonerado.<br>
+                        Quando Yuan Ru, irmã mais nova de Yuan Zong, cai de amores pelos charmes de Xia Yao, mas<br>
+                        não podia derrubar as barreiras dele, ela pede ajuda a Yuan Zong. No momento que Yuan Zong<br>
+                        vê Xia Yao, ele sabia que nenhuma outra pessoa chamaria sua atenção.<br>
+                        E assim começa a batalha entre irmão e irmã pelo prêmio mais cobiçado - o<br>
+                        coração de Xia Yao.<br>
+                    </p><br>
+                    
+                    <p class="ak"> Tianbao Fuyu Lao</p>
+                       <img src="38.jpg" class="al" width="300px" height="450px">
+                          <table border="1" align="center">
+                             <tr>
+                               <td> Autor(a)</td>
+                               <td> Fei Tian</td>
+                           </tr>
+                           <tr>
+                             <td> Cáp.</td>
+                             <td>221</td>
+                             </tr>
+                            <tr>
+                              <td> Ano</td>
+                              <td> 2017</td>
+                            </tr>
+                            <tr>
+                              <td> País</td>
+                              <td> China</td>
+                            </tr>
+                    </table>
+                    <p class="ai"> No décimo segundo ano do Tianbao, o jovem Hongjun deixa o Palácio Yaojin nas montanhas Taihang para <br>
+                        cumprir três tarefas na movimentada cidade de Chang'an. Ele precisa descobrir a verdade por trás da morte de <br>
+                        seu pai biológico, entrar no Departamento de Exorcismo para eliminar os yaos que ocupam a cidade, e <br>
+                        também deve encontrar o descendente da família Chen para lhe entregar a Lâmpada de Coração. Hongjun só <br>
+                        não esperava que, em sua primeira noite em Chang'an, a Lâmpada de Coração fosse quebrada e entrasse no corpo <br>
+                        de Li Jinglong.</p><br>
+            </section>
+        </div>
+</body>
+</html>
